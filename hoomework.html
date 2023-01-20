@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="download.jpg">
+    <title>Contact us</title>
+
+    <style>
+        .links{
+            float: left;
+        }
+        #fb{
+            float: left;
+        }
+        #insta{
+            padding-right: 5px;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to Codehelp</h1>
+    </header>
+
+    <section>
+        <h1>Contact Us Form</h1>
+    </section>
+
+    <div>
+        <form action="">
+
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your Name"><br>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="Enter your Email"><br>
+
+            <label for="tel"></label>
+            <input type="tel" name="tel" id="tel" placeholder="Enter Contact Number"><br>
+
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="rather">Rather not say</option>
+            </select><br>
+
+            <label for="date">Date of Birth</label>
+            <input type="date" name="date" id="date"><br>
+
+            <section id="rating">
+                <label for="rating">Rating</label>
+
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">1</label>
+                
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">2</label>
+
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">3</label>
+
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">4</label>
+
+                <input type="radio" name="radio" id="radio">
+                <label for="radio">5</label>
+            </section>
+
+            <label for="msg">Enter Your Message</label>
+            <div>
+                <textarea name="msg" id="msg" cols="35" rows="6" placeholder="Enter Your Message" aria-placeholder="Enter your Msg"></textarea>
+            </div>
+
+            <div class="button">
+                <button id="send">Send</button>
+                <button id="reset">Reset</button>
+            </div>
+
+            <br>
+
+            <footer class="links">
+                <a href="https://www.instagram.com/sibin_varghese_45/" target="_blank">
+                    <img id="insta" src="ins.png" alt="Instagram" width="40" height="45">
+                </a>
+                <a href="https://www.instagram.com/sibin_varghese_45/" target="_blank">
+                    <img id="fb" src="facebook.png" width="30" height="45" alt="Facebook" >
+                </a>
+            </footer>
+            
+        </form>
+    </div>
+</body>
+</html>
